@@ -12,9 +12,6 @@
   background: linear-gradient(to right, #21887f, #2a756b 20%, #376e5c 70%, #5f8f28);
 }
 
-/* .App *{
-  outline: 1px solid #727171;
-} */
 /* Estilos del header */
 .App-header{
   background: 
@@ -69,7 +66,20 @@
 .main{
   max-width: 1024px;
   margin: 0 auto;
-  padding: 2.5rem 0;
+  padding: .5rem 0 2.5rem 0;
+  color: #0e1a11;
+}
+.gitHub{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.gitHub i{
+  margin: .5rem;
+  color: #1d3020;
+  transition: 200ms linear;
+}
+.gitHub i:hover{
   color: #0e1a11;
 }
 .location{
@@ -166,20 +176,3 @@
   background: #292929;
 }
 
-
-
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

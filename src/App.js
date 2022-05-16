@@ -17,6 +17,11 @@ function App() {
         </div>
       </header>
       <main className='main'>
+      <div className='gitHub'>
+        <a href="https://github.com/MalanFernando/Rick_and_Morty" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
         <Content location={location} setLocation={setLocation}/>
       </main>
       {/* <footer>
